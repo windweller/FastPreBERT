@@ -2,10 +2,11 @@ package file
 
 import org.scalatest.FunSuite
 
-class TFRecordWriterUtilTest extends FunSuite {
+import org.scalatest._
 
-  test("testCreateTFRecordFile") {
 
+class TFRecordWriterUtilTest extends FlatSpec {
+  "Create TFRecord File" should "create a file" in {
+    TFRecordWriterUtil.createTFRecordFileExample("/Users/aimingnie/Desktop/test_example.tfrecord")
   }
-
 }
