@@ -6,7 +6,7 @@ import org.scalatest._
 
 
 class TFRecordWriterUtilTest extends FlatSpec {
-  "Create TFRecord File" should "create a file" in {
-    TFRecordWriterUtil.createTFRecordFileExample("/Users/aimingnie/Desktop/test_example.tfrecord")
-  }
+//  "Create TFRecord File" should "create a file" in {
+//     TFRecordWriterUtil.createTFRecordFileExample()
+//  }
 }
